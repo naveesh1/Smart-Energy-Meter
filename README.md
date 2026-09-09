@@ -40,6 +40,13 @@ The system also includes electrical tampering detection and a protection mechani
 6. When a partial bypass or tampering condition is detected, an alert is generated.
 7. The protection mechanism disconnects the power supply to the load.
 
+## System Connection Diagram
+
+The following diagram illustrates the connections between the PZEM-004T,
+ESP32, relay module, buzzer and the connected load.
+
+![System Connection Diagram](system_connection_diagram.png)
+
 ## Hardware Implementation
 
 The prototype was implemented using an ESP32, PZEM-004T and supporting components for real-time energy monitoring and tampering detection.
