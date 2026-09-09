@@ -69,8 +69,6 @@ The system successfully measures electrical parameters such as voltage, current,
 
 The system detects abnormal electrical conditions such as partial bypass tampering. When tampering is detected, the system generates an alert and disconnects the power supply through the protection mechanism.
 
-![Tampering Detection Result](Screenshot%202026-09-09%20213147.png)
-
 ## Protection Mechanism
 
 When a tampering condition is detected:
@@ -90,6 +88,26 @@ When a tampering condition is detected:
 - Electrical Energy Monitoring
 - Tampering Detection
 - Relay-Based Protection
+
+## Source Code
+
+The complete ESP32 source code used for the smart energy meter and tampering detection system is included in this repository.
+
+The code implements:
+
+- PZEM-004T electrical parameter measurement
+- Voltage and current monitoring
+- Power and energy measurement
+- Full bypass detection
+- Partial bypass detection
+- Overload detection
+- Buzzer-based alert
+- Relay-based power disconnection
+- Password-based power restoration
+
+Source file:
+
+`Smart_Energy_Meter.ino`
 
 ## Applications
 
